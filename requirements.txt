@@ -1,4 +1,6 @@
 fastapi
 google-cloud-storage
 uvicorn
-dotenv
+pandas
+numpy
+google-cloud-bigquery
