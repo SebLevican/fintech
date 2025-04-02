@@ -1,0 +1,47 @@
+cards:
+  columns:
+    id: int64
+    client_id: int64
+    card_brand: object
+    card_type: object
+    card_number: int64
+    expires: object
+    cvv: int64
+    has_chip: object
+    num_cards_issued: int64
+    credit_limit: object
+    acct_open_date: object
+    year_pin_last_changed: int64
+    card_on_dark_web: object
+
+transactions:
+  columns:
+    id: int64
+    date: object
+    client_id: int64
+    card_id: int64
+    amount: object
+    use_chip: object
+    merchant_id: int64
+    merchant_city: object
+    merchant_state: object
+    zip: float64
+    mcc: int64
+    errors: object
+
+users:
+  columns:
+    id: int64
+    current_age: int64
+    retirement_age: int64
+    birth_year: int64
+    birth_month: int64
+    gender: object
+    address: object
+    latitude: float64
+    longitude: float64
+    per_capita_income: object
+    yearly_income: object
+    total_debt: object
+    credit_score: int64
+    num_credit_cards: int64

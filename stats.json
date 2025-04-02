@@ -1,0 +1,26 @@
+{
+    "cards": {
+        "ingestion": 6146,
+        "validation": 6146,
+        "transformation": 6146
+    },
+    "transactions": {
+        "ingestion": 500000,
+        "validation": 500000,
+        "transformation": 500000
+    },
+    "users": {
+        "ingestion": 2000,
+        "validation": 2000,
+        "transformation": 2000
+    },
+    "merchants": {
+        "transformation": 19040
+    },
+    "dates": {
+        "transformation": 152
+    },
+    "times": {
+        "transformation": 1441
+    }
+}

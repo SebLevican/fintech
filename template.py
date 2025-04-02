@@ -17,6 +17,7 @@ list_of_files=[
     f'src/entity/__init__.py',
     f'src/entity/config_entity.py',
     f'src/constants/__init__.py',
+    f'src/data_schema/schema.yaml',
     'config/config.yaml',
     'schema.yaml',
     'main.py',
